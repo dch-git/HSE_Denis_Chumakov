@@ -9,7 +9,7 @@ USE `Edu_DB`;
 
 	-- Таблица `Students`
 		-- Содержит основную информацию о студентах: ФИО, дата рождения, контактнные данные и т.д.
-DROP TABLE IF EXISTS `Courses`;
+DROP TABLE IF EXISTS `Students`;
 CREATE TABLE `Students` (
 	`Student_ID` INT PRIMARY KEY AUTO_INCREMENT,
 	`Student_First_Name` VARCHAR(255) NOT NULL,
